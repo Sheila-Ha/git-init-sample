@@ -32,6 +32,10 @@ h2 {
     padding-top: 80px;
 }
 
+#contact-section{
+    display: block;
+    background-color: #E0CEBF
+}
 
 ol{
     text-align: centert;
