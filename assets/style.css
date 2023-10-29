@@ -4,14 +4,10 @@ body {
 }
 
 header {
-    position: relative;
-    top: 0;
+    line-height: 20px;
     width: 100%;
-    line-height: 10px;
-    width: 100%;
-    height: 50%;
-    background-color: blue;
-    border-bottom: 10px solid tan;
+    background-color: #406051;
+    border-bottom: 10px solid #E0CEBF;
 
 }
 
@@ -26,46 +22,48 @@ li {
     list-style-type:none;
     font-size: 9px;
     color: white(250, 250, 250);
-    padding: 10px;
+    padding: 0 10px;
 }
 
 .box-one {
-    border: 10px solid black;
+    border: 10px solid #4D4847;
     width: 300px;
+    margin: 0 auto;
+
  
 }
 
 .box-two {
-    border: 5px solid tan;
+    border: 5px solid #E0CEBF;
     margin: 0 auto;
 
 }
 
 .box-three {
-    border: 10px solid black;
+    border: 10px solid #4D4847;
 }
 
 .box-four {
-    border: 5px solid rgb(52, 72, 52);
+    border: 5px solid #406051;
 }
 
 .box-five {
-    border: 10px solid black ;
+    border: 10px solid #4D4847 ;
 }
 
 .box-six {
-    border: 5px solid tan;
+    border: 5px solid #E0CEBF;
 }
 
 .box-seven {
-    background: black;
-    height: 100px;
+    background: #4D4847;
+    height: 200px;
 }
 
-h4 {
-    color: white;
+h2 {
+    color: #E0CEBF;
     margin: 0 auto;
-    padding: 30px;
+    padding-top: 70px;
 }
 
 ol{
@@ -80,6 +78,6 @@ footer{
     width: 100%;
     line-height: 10px;
     color: white;
-    background-color: blue;
+    background-color:#406051;
 
 }
