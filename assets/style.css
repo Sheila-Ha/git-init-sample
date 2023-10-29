@@ -4,6 +4,7 @@ body {
 }
 
 header {
+    position: fixed;
     line-height: 20px;
     width: 100%;
     background-color: #406051;
@@ -25,46 +26,12 @@ li {
     padding: 0 10px;
 }
 
-.box-one {
-    border: 10px solid #4D4847;
-    width: 300px;
-    margin: 0 auto;
-
- 
-}
-
-.box-two {
-    border: 5px solid #E0CEBF;
-    margin: 0 auto;
-
-}
-
-.box-three {
-    border: 10px solid #4D4847;
-}
-
-.box-four {
-    border: 5px solid #406051;
-}
-
-.box-five {
-    border: 10px solid #4D4847 ;
-}
-
-.box-six {
-    border: 5px solid #E0CEBF;
-}
-
-.box-seven {
-    background: #4D4847;
-    height: 200px;
-}
-
 h2 {
     color: #E0CEBF;
     margin: 0 auto;
-    padding-top: 70px;
+    padding-top: 80px;
 }
+
 
 ol{
     text-align: centert;
@@ -73,10 +40,9 @@ ol{
 }
 
 footer{
-    position: absolute;
     bottom: 0;
     width: 100%;
-    line-height: 10px;
+    line-height: 65px;
     color: white;
     background-color:#406051;
 
