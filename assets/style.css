@@ -4,10 +4,14 @@ body {
 }
 
 header {
+    position: relative;
+    top: 0;
     width: 100%;
-    height: 10%;
+    line-height: 10px;
+    width: 100%;
+    height: 50%;
     background-color: blue;
-    border-bottom: 5px solid tan;
+    border-bottom: 10px solid tan;
 
 }
 
@@ -26,28 +30,31 @@ li {
 }
 
 .box-one {
-    border: 15px solid black;
+    border: 10px solid black;
     width: 300px;
+ 
 }
 
 .box-two {
-    border: 15px solid tan;
+    border: 5px solid tan;
+    margin: 0 auto;
+
 }
 
 .box-three {
-    border: 15px solid black;
+    border: 10px solid black;
 }
 
 .box-four {
-    border: 15px solid rgb(52, 72, 52);
+    border: 5px solid rgb(52, 72, 52);
 }
 
 .box-five {
-    border: 15px solid black ;
+    border: 10px solid black ;
 }
 
 .box-six {
-    border: 15px solid tan;
+    border: 5px solid tan;
 }
 
 .box-seven {
@@ -57,7 +64,22 @@ li {
 
 h4 {
     color: white;
-    padding: 30px;
     margin: 0 auto;
-    
+    padding: 30px;
+}
+
+ol{
+    text-align: centert;
+    color: rgb(18, 17, 17);
+    font-size: 1px
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    line-height: 10px;
+    color: white;
+    background-color: blue;
+
 }
